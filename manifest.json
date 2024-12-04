@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Unofficial Backloggd Extension",
+  "permissions": [
+	"clipboardWrite"
+  ],
+  "version": "0.1",
+  "description": "Extension for Backloggd.com features that haven't been added officially yet.",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.backloggd.com/*"
+      ],
+      "js": ["Unofficial Backloggd Extension.js"]
+    }
+	]
+}
+  
