@@ -1,19 +1,28 @@
 {
-  "manifest_version": 2,
-  "name": "Unofficial Backloggd Extension",
-  "permissions": [
-	"clipboardWrite"
-  ],
-  "version": "0.1",
-  "description": "Extension for Backloggd.com features that haven't been added officially yet.",
+	"manifest_version": 2,
+	"name": "Unofficial Backloggd Extension",
+	"permissions": [
+		"clipboardWrite",
+		"activeTab"
+	],
+	"version": "0.2",
+	"description": "Extension for Backloggd.com features that haven't been added officially yet.",
 
-  "content_scripts": [
-    {
-      "matches": [
-        "*://*.backloggd.com/*"
-      ],
-      "js": ["Unofficial Backloggd Extension.js"]
-    }
+	"content_scripts": [
+		{
+			"matches": ["*://*.backloggd.com/", "*://*.backloggd.com/*"],
+			"js": ["make-clicking-work-with-extension.js"],
+			"run_at": "document_start"
+		},
+		{
+			"matches": ["*://*.backloggd.com/u/*/list/*/"],
+			"js": ["user-list-page.js"]
+		},
+		{
+			"matches": ["*://*.backloggd.com/games/*/"],
+			"exclude_matches": ["*://*.backloggd.com/games/*/*/"],
+			"js": ["individual-game-page.js"]
+		}
 	]
+	
 }
-  
