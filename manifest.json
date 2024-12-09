@@ -7,7 +7,6 @@
 	],
 	"version": "0.2",
 	"description": "Extension for Backloggd.com features that haven't been added officially yet.",
-
 	"content_scripts": [
 		{
 			"matches": ["*://*.backloggd.com/", "*://*.backloggd.com/*"],
@@ -24,5 +23,4 @@
 			"js": ["individual-game-page.js"]
 		}
 	]
-	
 }

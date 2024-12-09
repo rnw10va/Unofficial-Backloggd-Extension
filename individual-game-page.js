@@ -1,16 +1,7 @@
-
 var locationForButton = document.getElementsByClassName("game-page-sidecard")[0].parentElement.parentElement.parentElement;
 
 if (locationForButton) {
     aTags = document.getElementsByTagName("a");
-    
-    //let noPcTag = true;
-    //for(const aTag of aTags){
-    //    if(aTag === "/games/lib/popular/release_platform:win/"){
-    //        noPcTag = false;
-    //    }
-    //}
-
     const linkToUse1a = "https://www.isthereanydeal.com";
     const linkToUse1b = linkToUse1a + "/game/" + document.getElementsByClassName("game-slug-container")[0].id + "/info/";
     buttonAddition("  ITAD Link", linkToUse1a, linkToUse1b);
@@ -24,12 +15,9 @@ function buttonAddition(buttonText, linkTexta, linkTestb){
     divTemp.className = "col-5 col-sm-6 col-md-auto pl-1";
     var aTemp = document.createElement("a");
     aTemp.href = linkTestb;
-    //aTemp.disabled = disabledButton;
     var pTemp = document.createElement("p");
     pTemp.className = "game-page-sidecard";
     var iTemp = document.createElement("img");
-    //var iTemp = document.createElement("link");
-    //iTemp.rel = "icon";
     iTemp.src = "https://s2.googleusercontent.com/s2/favicons?domain=" + linkTexta;
     iTemp.style = "position: relative; top: -" + iTemp.width / 8 + "px;";
     const textNode = document.createTextNode(buttonText);

@@ -23,5 +23,5 @@ function onbuttonclicked() {
 	.catch(err => {
 		console.error("Failed to write to clipboard:", err);
 	});
-	const wheelWindow = window.open("https://wheelofnames.com/");
+	window.open("https://wheelofnames.com/");
 }
