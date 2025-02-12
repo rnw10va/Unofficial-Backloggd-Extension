@@ -1,4 +1,9 @@
 # Unofficial-Backloggd-Extension
+
+This project is on temporary hold because:
+1. I am busy with other things at the moment.
+2. Someone else started up a similar project. It's not exactly the same, but it appears to also be adding new features to the site and I don't need to do the same work someone else is also doing.
+
 Firefox Extension for Desktop and Android to implement Backloggd.com features that haven't been added officially yet.
 
 Firefox Browser Add-ons store link: https://addons.mozilla.org/en-US/firefox/addon/unofficial-backloggd-extension/
