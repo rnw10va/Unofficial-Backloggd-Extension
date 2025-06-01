@@ -5,7 +5,7 @@
 		"clipboardWrite",
 		"activeTab"
 	],
-	"version": "0.2",
+	"version": "0.2.5",
 	"description": "Extension for Backloggd.com features that haven't been added officially yet.",
 	"content_scripts": [
 		{
@@ -14,7 +14,7 @@
 			"run_at": "document_start"
 		},
 		{
-			"matches": ["*://*.backloggd.com/u/*/list/*/"],
+			"matches": ["*://*.backloggd.com/u/*/list/*"],
 			"js": ["user-list-page.js"]
 		},
 		{
