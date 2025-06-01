@@ -1,8 +1,7 @@
 # Unofficial-Backloggd-Extension
 
-This project is on temporary hold because:
-1. I am busy with other things at the moment.
-2. Someone else started up a similar project. It's not exactly the same, but it appears to also be adding new features to the site and I don't need to do the same work someone else is also doing.
+This project is no longer on hold.
+
 
 Firefox Extension for Desktop and Android to implement Backloggd.com features that haven't been added officially yet.
 
@@ -13,8 +12,8 @@ Feature 1: Adds a "Random Pick" button near the top right corner of the screen o
 ![Feature 1 Screenshot](https://github.com/user-attachments/assets/110d9969-de48-413b-8a04-2d5c8f5296b8)
 
 
-Feature 2: Adds a IsThereAnyDeal button on game information pages. Sometimes a match doesn't appear, this can be because it's a retro game that you can't buy digitally or because or just an ocassional mismatch. <br>
-Feature 3: Adds a HowLongToBeat button on game information pages.
+Feature 2: Adds a IsThereAnyDeal button on game information pages. Sometimes a match doesn't appear, this can be because it's a retro game that you can't buy digitally or because or just an ocassional mismatch. On mobile the new button does not appear unless desktop mode is enabled, a solution will be investigated. <br>
+Feature 3: Adds a HowLongToBeat button on game information pages. On mobile the new button does not appear unless desktop mode is enabled, a solution will investigated.
 
 ![Feature 2 and 3 Screenshot](https://github.com/user-attachments/assets/08162a5f-0db2-477d-b728-217957ca7351)
 
